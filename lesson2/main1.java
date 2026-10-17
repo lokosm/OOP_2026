@@ -1,3 +1,5 @@
+// доставка (авто, авиа и жд)
+
 interface IDelivery {
     void deliver(String box);
 }
