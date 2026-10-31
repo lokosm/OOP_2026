@@ -1,0 +1,13 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+package Lesson3.n2;
+
+public class Main {
+   public Main() {
+   }
+
+   public static void main(String[] var0) {
+      EnglishTranslator var1 = new EnglishTranslator();
+      TranslatorAdapter var2 = new TranslatorAdapter(var1);
+      var2.translate("Hello, how are you?");
+   }
+}
